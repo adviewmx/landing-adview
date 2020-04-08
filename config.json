@@ -1,0 +1,222 @@
+{
+    "info": {
+        "titulo": "Adview - Adview Landing Base",
+        "descripcion": "Agencia de Web Marketing",
+        "googleAnalytics": "",
+        "fbPixel": "",
+        "copyright": "© [Y]. Todos los Derechos Reservados Aviso de Privacidad. [adview]",
+        "url": "",
+        "logo": "images/logo.png"
+    },
+    "contactos" : {
+        "email" : "contact@domain.com",
+        "telefono": "(00) 000 0000",
+        "direccion": "Direccion conocida<br>Ciudad cercana en algún pais",
+        "whatsapp": "",
+        "messenger": ""
+    },
+    "redes":{
+        "facebook": {
+            "url": "https://www.facebook.com/",
+            "icon": "fab fa-facebook-square"
+        },
+        "instagram": {
+            "url": "https://www.instagram.com/",
+            "icon": "fab fa-instagram"
+        },
+        "github": {
+            "url": "https://github.com/javimata/landing-adview",
+            "icon": "fab fa-github"
+        }
+    },
+    "menu": {
+        "class": "navbar-nav w-100 justify-content-between align-items-end",
+        "id": "menu-main",
+        "type": "list",
+        "items": {
+            "Nosotros": {
+                "url": "#nosotros",
+                "class": "nav-item",
+                "target": "",
+                "itemClass": ""
+            },
+            "Servicios": {
+                "url": "#servicios",
+                "class": "nav-item",
+                "target": "",
+                "itemClass": ""
+            },
+            "Beneficios": {
+                "url": "#beneficios",
+                "class": "nav-item",
+                "target": "",
+                "itemClass": ""
+            },
+            "Portafolio": {
+                "url": "#porfolio",
+                "class": "nav-item",
+                "target": "",
+                "itemClass": ""
+            },
+            "Contacto": {
+                "url": "#contacto",
+                "class": "nav-item",
+                "target": "",
+                "itemClass": ""
+            }
+        }
+    },
+    "forms": {
+        "cotiza": {
+            "action": "",
+            "class": "",
+            "id": "cotiza",
+            "method": "",
+            "containerClass": "row",
+            "containerId": "",
+            "attribs": {},
+            "mailchimpList": "",
+            "titleMail": "Solicitud de cotización - Landing",
+            "successMail": "Gracias por solicitar nuestro folleto, en breve lo recibirá en el email indicado",
+            "errorMail": "",
+            "errorBox": "caja_error",
+            "fields": {
+                "nombre": {
+                    "class": "form-group col-md-6",
+                    "id": "",
+                    "name": "nombre",
+                    "mailchimpField": "FNAME",
+                    "attribs": {
+                        "type": "text",
+                        "class": "form-control border border-dark",
+                        "id": "",
+                        "value": "",
+                        "placeholder": "Nombre completo",
+                        "attribs": {},
+                        "required": 1
+                    }
+                },
+                "email": {
+                    "class": "form-group col-md-6",
+                    "id": "",
+                    "name": "email",
+                    "attribs": {
+                        "type": "email",
+                        "class": "form-control border border-dark",
+                        "id": "",
+                        "value": "",
+                        "placeholder": "Indica tu Email",
+                        "attribs": {},
+                        "required": 1
+                    }
+                },
+                "comentarios": {
+                    "class": "form-group col-12",
+                    "id": "",
+                    "name": "comentarios",
+                    "attribs": {
+                        "type": "text",
+                        "class": "form-control border border-dark",
+                        "id": "",
+                        "value": "",
+                        "placeholder": "Ingresa tus comentarios",
+                        "attribs": {},
+                        "required": 1
+                    }
+                },
+                "submit": {
+                    "class": "form-group col-12",
+                    "id": "",
+                    "attribs": {
+                        "type": "submit",
+                        "class": "btn btn-primary btn-full mb-3",
+                        "id": "",
+                        "value": "COTIZAR AHORA",
+                        "attribs": {}
+                    }
+                }
+            }
+        },
+        "newsletter": {
+            "action": "",
+            "class": "",
+            "id": "newsletter",
+            "method": "",
+            "containerClass": "row",
+            "containerId": "",
+            "attribs": {},
+            "mailchimpList": "",
+            "errorBox": "form-group col-12 caja_error",
+            "titleMail": "Registro en Newsletter - Landing",
+            "successMail": "Gracias por registrarse en nuestro Newsletter",
+            "errorMail": "",
+            "fields": {
+                "email": {
+                    "class": "form-group col-md-12",
+                    "id": "",
+                    "name": "email",
+                    "attribs": {
+                        "type": "email",
+                        "class": "form-control",
+                        "id": "",
+                        "value": "",
+                        "placeholder": "Ingresa tu Email",
+                        "required": 1
+                    }
+                },
+                "submit": {
+                    "class": "form-group col-12 text-center",
+                    "id": "",
+                    "attribs": {
+                        "type": "submit",
+                        "class": "btn btn-secondary btn-full px-md-5",
+                        "id": "",
+                        "value": "Registrar ahora",
+                        "attribs": {}
+                    }
+                }                
+            }
+        }        
+    },
+    "configuracion": {
+        "openGraph": 1,
+        "gotop": 1,
+        "sticky": 1,
+        "popup": 0,
+        "revolution": 1,
+        "loading": 0,
+        "particles": 0,
+        "pwa": 0,
+        "fonts": {},
+        "assets": {
+            "slick": 1,
+            "matchHeight": 0,
+            "aos": 1,
+            "animate": 1,
+            "fontawesome": 1,
+            "fancybox": 1,
+            "masonry": 0
+        },
+        "advanced": {
+            "maincss": "dist/css/styles.css",
+            "mainjs": "dist/js/bundle.js"
+        },
+        "mailer": {
+            "auth": 0,
+            "to": "javimata@gmail.com",
+            "cc": "",
+            "bcc": "",
+            "from": "mail@localhost.com",
+            "fromName": "Hosting",
+            "host": "",
+            "port": "",
+            "smtpSecure": "tls",
+            "userName": "",
+            "password": ""
+        },
+        "mailchimp": {
+            "use": 0,
+            "api": ""
+        }
+    }
+}
