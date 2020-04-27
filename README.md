@@ -16,12 +16,12 @@ gulp
 #### config.json
 |Sección|Descripción|
 |:------|-----------|
-|info|Información básica del sitio, como titulo, descripcion, etc|
-|contactos|Medios de contacto para la página, como email, whatsapp, etc|
-|redes|Lista de redes sociales del sitio|
-|menu|Creador de menu|
-|forms|Creador de formularios|
-|configuracion|Configuración del sitio, así como de addons y assets|
+|<b>info</b>|Información básica del sitio, como titulo, descripcion, etc|
+|<b>contactos</b>|Medios de contacto para la página, como email, whatsapp, etc|
+|<b>redes</b>|Lista de redes sociales del sitio|
+|<b>menu</b>|Creador de menu|
+|<b>forms</b>|Creador de formularios|
+|<b>configuracion</b>|Configuración del sitio, así como de addons y assets|
 
 
 
@@ -30,4 +30,4 @@ gulp
 |:------|-----------|
 |<b>gulp</b>|Configura archivos js y css necesarios utilizando Gulp|
 |<b>gulp watch</b>|Activa watcher para cambios en js & css's|
-|<b>gulp images</b>|optimiza imagenes de la carpeta ./assets/images a ./images|
+|<b>gulp image</b>|optimiza imagenes de la carpeta ./assets/images a ./images|
