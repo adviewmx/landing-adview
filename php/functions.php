@@ -517,7 +517,7 @@ function getMainJS() {
         $mainjs = explode(",",$config->configuracion->advanced->mainjs);
     
         foreach( $mainjs as $filejs ): 
-            $eachJS .= '<script async src="'.$filejs.'"></script>">'."\n";
+            $eachJS .= '<script async src="'.$filejs.'"></script>'."\n";
         endforeach;
 
     } else {
