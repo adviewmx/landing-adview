@@ -2,7 +2,7 @@
 ## Con Gulp
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/javimata/landing-adview?style=social"> <img src="https://img.shields.io/github/forks/javimata/landing-adview?style=social"> <img src="https://img.shields.io/github/repo-size/javimata/landing-adview"> <img src="https://img.shields.io/github/license/javimata/landing-adview"> <img src="https://img.shields.io/github/issues/detail/author/javimata/landing-adview/1">
+  <img src="https://img.shields.io/github/stars/javimata/landing-adview?style=social"> <img src="https://img.shields.io/github/forks/javimata/landing-adview?style=social"> <img src="https://img.shields.io/github/repo-size/javimata/landing-adview"> <img src="https://img.shields.io/github/license/javimata/landing-adview">
 </p>
 
 ```  
