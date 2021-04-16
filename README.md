@@ -6,7 +6,7 @@
 </p>
 
 ```  
-git clone https://github.com/javimata/landing-adview.git  
+git clone https://github.com/adviewmx/landing-adview.git  
 composer install 
 npm install
 gulp  
